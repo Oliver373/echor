@@ -1,0 +1,14 @@
+[package]
+name = "echor"
+version = "0.1.0"
+edition = "2021"
+author = "Yudong Han <hanyudong@qq.com>"
+description = "description Rust echo"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+clap = { version="^4", features = ["derive"]}
+assert_cmd = "^2"
+predicates = "^2"
